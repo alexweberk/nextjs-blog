@@ -22,12 +22,7 @@ export default function Home({ allPostsData }) {
 			</Head>
 			<section className={utilStyles.headingMd}>
 				<p>
-					[Your Self Introduction]{' '}
-					<Link href='/posts/first-post'>→ Go to my post</Link>
-				</p>
-				<p>
-					(This is a sample website - you’ll be building a site like this on{' '}
-					<a href='https://nextjs.org/learn'>our Next.js tutorial</a>.)
+					<Link href='/posts/introduction'>A little bit about me...</Link>
 				</p>
 			</section>
 			<section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
